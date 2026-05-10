@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Ruslan Baiazitov</title>
+    </head>
+
+    <body>
+        <header class="container">
+            <nav>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="biography.html">Biography</a></li>
+                    <li><a href="albums.html">Albums</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="downloads.html">Downloads</a></li>
+                    <li class="btn contacts"><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero container">
+            <div class="hero--info">
+                <h3>Pianist and Composer</h3>
+                <h1>Ruslan Baiazitov</h1>
+            </div>
+            <img src="img/For-MJ.jpg" alt="Headshot">
+            <div class="wrapper">
+                <div class="container projects">
+                </div>
+
+                <div class="container email">
+                    <div class="block">
+                        <div>
+                            <h2>Stay in the loop</h2>
+                            <p>If you’d like to learn more about the artist, feel free to subscribe for updates and insights.</p>
+                        </div>
+                        <div>
+                            <input type="email" id="emailField" placeholder="Enter email address">
+                            <button onclick="checkEmail()">Continue</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="blocks container">
+                <div>
+                    <h3>Contact us</h3>
+                    <p>email: bayazitov.ruslan@gmail.com</p>
+                    <p>Phone: +832-455-6019</p>
+                </div>
+            </div>
+            <hr>
+
+            <p style="text-align: center;">© 2026 Ruslan Baiazitov. All Rights Reserved.</p>
+        </footer>
+        <script>
+            function checkEmail() {
+                let email = document.querySelector('#emailField').value;
+
+                if (!email.includes('@') || !email.includes('.')) {
+                    alert('Please enter a valid email');
+                } else {
+                    alert('Success!');
+                }
+            }
+        </script>
+    </body>
+
+</html>

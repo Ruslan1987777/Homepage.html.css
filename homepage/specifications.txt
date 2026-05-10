@@ -1,0 +1,20 @@
+HTML Tags Used:
+nav, ul, li, a, div, h1, h2, h3, h4, h6, p, img, input, button,
+form, label, textarea, footer, header, strong, em
+
+CSS Selectors Used:
+body, a, img, header, header nav ul li, .hero, .hero-video,
+.hero-biography, .hero-albums, .email, .email .block, .feedback, footer, .btn, .container
+
+CSS Properties Used:
+margin, padding, display, font-family, color, background,
+border-radius, width, height, gap, position, float, text-align, transition, cursor
+
+JavaScript Usage:
+JavaScript was used to validate the email input field on the homepage
+by checking whether the user input contains both “@” and “.” symbols,
+and displaying an alert message accordingly.
+
+Bootstrap Usage:
+Bootstrap was used to create a responsive layout and consistent
+spacing using the container class and the Bootstrap grid system.
